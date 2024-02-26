@@ -495,3 +495,9 @@ SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
 (lxpanel:824): Gtk-WARNING **: 13:43:45.623: gtk_widget_size_allocate(): attempt to allocate widget with width -1 and height 24
 
 ** (lxpanel:824): WARNING **: 13:43:46.019: launchbar: application in desktop entry is not valid
+
+(pcmanfm:831): Gtk-WARNING **: 13:51:20.217: Theme parsing error: <data>:2:27: The style property GtkWidget:focus-padding is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(pcmanfm:831): Gtk-WARNING **: 13:51:20.228: Theme parsing error: <data>:3:30: The style property GtkWidget:focus-line-width is deprecated and shouldn't be used anymore. It will be removed in a future version
+
+(pcmanfm:831): Gtk-WARNING **: 13:51:23.891: gtk_menu_detach(): menu is not attached

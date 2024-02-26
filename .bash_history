@@ -359,3 +359,5 @@ sudo lightdm
 sudo raspi-config
 startx
 startlxde
+bash klipperbackup.sh
+sudo apt-get install seahorse
