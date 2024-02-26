@@ -1,0 +1,497 @@
+** Message: 13:43:31.672: environement.vala:58: Exporting primary_variable
+** Message: 13:43:31.673: environement.vala:59: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: 13:43:31.673: environement.vala:150: confir_dirs is null, export : /etc/xdg
+** Message: 13:43:31.673: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: 13:43:31.673: environement.vala:218: custom_data :/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:
+** Message: 13:43:31.673: environement.vala:219: data_dirs :/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/
+** Message: 13:43:31.673: environement.vala:220: data_dirs not null, export : /usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/
+** Message: 13:43:31.673: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: 13:43:31.674: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:31.685: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:31.685: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:31.685: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:31.685: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+
+** (lxsession:626): WARNING **: 13:43:31.688: utils.vala:70: No such file or directory
+** Message: 13:43:31.689: settings.vala:540: Key file does not have key “iGtk/ColorScheme” in group “GTK”
+** Message: 13:43:31.689: settings.vala:540: Key file does not have key “windows_manager/command” in group “Session”
+** Message: 13:43:31.689: settings.vala:540: Key file does not have key “panel/command” in group “Session”
+** Message: 13:43:31.689: settings.vala:540: Key file does not have key “dock/command” in group “Session”
+** Message: 13:43:31.689: settings.vala:540: Key file does not have key “file_manager/command” in group “Session”
+** Message: 13:43:31.689: settings.vala:540: Key file does not have key “desktop_manager/command” in group “Session”
+** Message: 13:43:31.689: settings.vala:540: Key file does not have key “launcher_manager/command” in group “Session”
+** Message: 13:43:31.689: settings.vala:540: Key file does not have key “composite_manager/command” in group “Session”
+** Message: 13:43:31.689: settings.vala:540: Key file does not have key “im1/command” in group “Session”
+** Message: 13:43:31.690: settings.vala:540: Key file does not have key “im2/command” in group “Session”
+** Message: 13:43:31.690: settings.vala:540: Key file does not have key “widget1/command” in group “Session”
+** Message: 13:43:31.690: settings.vala:540: Key file does not have key “notification/command” in group “Session”
+** Message: 13:43:31.690: settings.vala:540: Key file does not have key “keybindings/command” in group “Session”
+** Message: 13:43:31.690: settings.vala:540: Key file does not have key “im_manager/command” in group “Session”
+** Message: 13:43:31.690: settings.vala:540: Key file does not have key “screensaver/command” in group “Session”
+** Message: 13:43:31.690: settings.vala:540: Key file does not have key “power_manager/command” in group “Session”
+** Message: 13:43:31.690: settings.vala:540: Key file does not have key “polkit/command” in group “Session”
+** Message: 13:43:31.690: settings.vala:540: Key file does not have key “audio_manager/command” in group “Session”
+** Message: 13:43:31.690: settings.vala:540: Key file does not have key “quit_manager/command” in group “Session”
+** Message: 13:43:31.690: settings.vala:540: Key file does not have key “quit_manager/command” in group “Session”
+** Message: 13:43:31.690: settings.vala:540: Key file does not have key “workspace_manager/command” in group “Session”
+** Message: 13:43:31.690: settings.vala:540: Key file does not have key “terminal_manager/command” in group “Session”
+** Message: 13:43:31.691: settings.vala:540: Key file does not have key “screenshot_manager/command” in group “Session”
+** Message: 13:43:31.691: settings.vala:540: Key file does not have key “lock_manager/command” in group “Session”
+** Message: 13:43:31.691: settings.vala:540: Key file does not have key “message_manager/command” in group “Session”
+** Message: 13:43:31.691: settings.vala:540: Key file does not have key “upgrade_manager/command” in group “Session”
+** Message: 13:43:31.691: settings.vala:540: Key file does not have key “updates_manager/command” in group “Session”
+** Message: 13:43:31.691: settings.vala:540: Key file does not have key “updates_manager/timeout” in group “Session”
+** Message: 13:43:31.691: settings.vala:540: Key file does not have key “crash_manager/command” in group “Session”
+** Message: 13:43:31.691: settings.vala:540: Key file does not have key “crash_manager/dev_mode” in group “Session”
+** Message: 13:43:31.691: settings.vala:540: Key file does not have key “crash_manager/timeout” in group “Session”
+** Message: 13:43:31.691: settings.vala:540: Key file does not have key “clipboard/command” in group “Session”
+** Message: 13:43:31.691: settings.vala:540: Key file does not have key “disable_autostart” in group “Session”
+** Message: 13:43:31.692: settings.vala:540: Key file does not have key “upstart_user_session” in group “Session”
+** Message: 13:43:31.692: settings.vala:540: Key file does not have key “xsettings_manager/command” in group “Session”
+** Message: 13:43:31.692: settings.vala:540: Key file does not have key “proxy_manager/command” in group “Session”
+** Message: 13:43:31.692: settings.vala:540: Key file does not have key “proxy_manager/http” in group “Session”
+** Message: 13:43:31.692: settings.vala:540: Key file does not have key “a11y/command” in group “Session”
+** Message: 13:43:31.692: settings.vala:540: Key file does not have key “keyring/command” in group “Session”
+** Message: 13:43:31.692: settings.vala:540: Key file does not have key “xrandr/command” in group “Session”
+** Message: 13:43:31.692: settings.vala:540: Key file does not have key “network_gui/command” in group “Session”
+** Message: 13:43:31.692: settings.vala:540: Key file does not have key “webbrowser/command” in group “Session”
+** Message: 13:43:31.692: settings.vala:540: Key file does not have key “email/command” in group “Session”
+** Message: 13:43:31.692: settings.vala:540: Key file does not have key “pdf_reader/command” in group “Session”
+** Message: 13:43:31.692: settings.vala:540: Key file does not have key “video_player/command” in group “Session”
+** Message: 13:43:31.693: settings.vala:540: Key file does not have key “audio_player/command” in group “Session”
+** Message: 13:43:31.693: settings.vala:540: Key file does not have key “image_display/command” in group “Session”
+** Message: 13:43:31.693: settings.vala:540: Key file does not have key “text_editor/command” in group “Session”
+** Message: 13:43:31.693: settings.vala:540: Key file does not have key “archive/command” in group “Session”
+** Message: 13:43:31.693: settings.vala:540: Key file does not have key “charmap/command” in group “Session”
+** Message: 13:43:31.693: settings.vala:540: Key file does not have key “calculator/command” in group “Session”
+** Message: 13:43:31.693: settings.vala:540: Key file does not have key “spreadsheet/command” in group “Session”
+** Message: 13:43:31.693: settings.vala:540: Key file does not have key “bittorent/command” in group “Session”
+** Message: 13:43:31.693: settings.vala:540: Key file does not have key “document/command” in group “Session”
+** Message: 13:43:31.693: settings.vala:540: Key file does not have key “webcam/command” in group “Session”
+** Message: 13:43:31.694: settings.vala:540: Key file does not have key “burn/command” in group “Session”
+** Message: 13:43:31.694: settings.vala:540: Key file does not have key “notes/command” in group “Session”
+** Message: 13:43:31.694: settings.vala:540: Key file does not have key “disk_utility/command” in group “Session”
+** Message: 13:43:31.694: settings.vala:540: Key file does not have key “tasks/command” in group “Session”
+** Message: 13:43:31.694: settings.vala:540: Key file does not have group “Keymap”
+** Message: 13:43:31.694: settings.vala:540: Key file does not have group “State”
+** Message: 13:43:31.694: settings.vala:540: Key file does not have group “State”
+** Message: 13:43:31.694: settings.vala:540: Key file does not have group “Dbus”
+** Message: 13:43:31.694: settings.vala:540: Key file does not have group “Dbus”
+** Message: 13:43:31.694: settings.vala:540: Key file does not have group “Environment”
+** Message: 13:43:31.694: settings.vala:540: Key file does not have group “Environment”
+** Message: 13:43:31.694: settings.vala:540: Key file does not have group “Environment”
+** Message: 13:43:31.695: settings.vala:540: Key file does not have group “Environment”
+** Message: 13:43:31.695: settings.vala:540: Key file does not have group “Environment”
+** Message: 13:43:31.695: settings.vala:540: Key file does not have group “Environment”
+** Message: 13:43:31.695: settings.vala:540: Key file does not have group “Environment”
+** Message: 13:43:31.695: settings.vala:540: Key file does not have key “iXft/Hinting” in group “GTK”
+** Message: 13:43:31.695: settings.vala:540: Key file does not have key “sXft/HintStyle” in group “GTK”
+** Message: 13:43:31.695: settings.vala:540: Key file does not have key “sXft/RGBA” in group “GTK”
+** Message: 13:43:31.695: settings.vala:540: Key file does not have key “sGtk/ColorScheme” in group “GTK”
+** Message: 13:43:31.695: settings.vala:540: Key file does not have key “sGtk/CursorThemeName” in group “GTK”
+** Message: 13:43:31.696: settings.vala:540: Key file does not have key “iGtk/ToolbarIconSize” in group “GTK”
+** Message: 13:43:31.696: settings.vala:540: Key file does not have key “iNet/EnableEventSounds” in group “GTK”
+** Message: 13:43:31.696: settings.vala:540: Key file does not have key “iNet/EnableInputFeedbackSounds” in group “GTK”
+** Message: 13:43:31.696: settings.vala:540: Key file does not have key “Beep” in group “Keyboard”
+** Message: 13:43:31.703: settings.vala:462: Monitoring: /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:31.703: settings.vala:470: Desktop file is not in config home, monitoring creation of it
+** Message: 13:43:31.704: settings.vala:485: Monitoring home path: /home/twoscoopsofpig/.config/lxsession/LXDE/desktop.conf
+** Message: 13:43:31.705: settings.vala:373: Settings default for Session, windows_manager, command : openbox
+** Message: 13:43:31.705: settings.vala:373: Settings default for Session, windows_manager, session : LXDE
+** Message: 13:43:31.705: settings.vala:373: Settings default for Session, disable_autostart, (null) : no
+
+** (lxsession:626): WARNING **: 13:43:31.706: settings.vala:917: Failed to create file “/etc/xdg/lxsession/LXDE/desktop.conf.O73HJ2”: Permission denied
+** Message: 13:43:31.709: settings.vala:462: Monitoring: /home/twoscoopsofpig/.config/lxsession/LXDE/desktop.conf
+** Message: 13:43:31.709: settings.vala:466: Desktop file is already in config home, do nothing
+** Message: 13:43:31.709: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:31.709: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE/autostart
+** Message: 13:43:31.709: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE/autostart
+** Message: 13:43:31.737: settings.vala:373: Settings default for Session, polkit, command : lxpolkit
+** Message: 13:43:31.871: settings.vala:373: Settings default for Session, clipboard, command : lxclipboard
+** Message: 13:43:31.954: settings.vala:373: Settings default for Session, xsettings_manager, command : build-in
+** Message: 13:43:32.014: settings.vala:373: Settings default for Session, proxy_manager, command : build-in
+** Message: 13:43:32.143: settings.vala:373: Settings default for Session, keyring, command : ssh-agent
+** Message: 13:43:32.210: settings.vala:373: Settings default for GTK, iXft, Hinting : 1
+** Message: 13:43:32.256: settings.vala:373: Settings default for GTK, sXft, HintStyle : hintslight
+** Message: 13:43:32.292: settings.vala:373: Settings default for GTK, sXft, RGBA : rgb
+** Message: 13:43:32.327: settings.vala:373: Settings default for GTK, iNet, EnableEventSounds : 1
+** Message: 13:43:32.376: settings.vala:373: Settings default for GTK, iNet, EnableInputFeedbackSounds : 1
+** Message: 13:43:32.408: settings.vala:373: Settings default for GTK, sGtk, ColorScheme : 
+** Message: 13:43:32.441: settings.vala:373: Settings default for GTK, iGtk, ToolbarIconSize : 3
+** Message: 13:43:32.475: settings.vala:373: Settings default for GTK, sGtk, CursorThemeName : DMZ-White
+** Message: 13:43:32.515: settings.vala:373: Settings default for Keyboard, Beep, (null) : 1
+** Message: 13:43:32.543: settings.vala:373: Settings default for State, guess_default, (null) : true
+** Message: 13:43:32.600: settings.vala:373: Settings default for Dbus, lxde, (null) : true
+** Message: 13:43:32.688: settings.vala:373: Settings default for Environment, menu_prefix, (null) : lxde-
+** Message: 13:43:32.803: settings.vala:373: Settings default for Session, quit_manager, command : lxsession-logout
+** Message: 13:43:32.867: settings.vala:373: Settings default for Session, quit_manager, image : /usr/share/lxde/images/logout-banner.png
+** Message: 13:43:32.867: settings.vala:373: Settings default for Session, quit_manager, layout : top
+** Message: 13:43:32.867: settings.vala:373: Settings default for Session, lock_manager, command : lxlock
+** Message: 13:43:32.931: settings.vala:373: Settings default for Session, terminal_manager, command : lxterminal
+** Message: 13:43:32.977: settings.vala:373: Settings default for Session, launcher_manager, command : lxpanelctl
+** Message: 13:43:32.977: environement.vala:79: Exporting variable
+** Message: 13:43:32.977: environement.vala:80: desktop_environnement XDG_CURRENT_DESKTOP
+** Message: 13:43:32.978: environement.vala:177: custom_config :
+** Message: 13:43:32.978: environement.vala:178: config_dirs :/etc/xdg
+** Message: 13:43:32.978: environement.vala:179: confir_dirs not null, export : /etc/xdg
+** Message: 13:43:32.978: environement.vala:184: Exporting XDG_CONFIG_DIRS
+** Message: 13:43:32.978: environement.vala:218: custom_data :
+** Message: 13:43:32.978: environement.vala:219: data_dirs :/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/
+** Message: 13:43:32.978: environement.vala:220: data_dirs not null, export : /usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/
+** Message: 13:43:32.978: environement.vala:225: Exporting XDG_DATA_DIRS
+** Message: 13:43:32.978: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:32.978: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:32.979: environement.vala:254: No entry in [Environment_variable]. Key file does not have group “Environment_variable”
+
+** (lxsession:626): WARNING **: 13:43:33.003: process.vala:49: Failed to execute child process “xprop” (No such file or directory)
+
+** (lxsession:626): WARNING **: 13:43:33.003: process.vala:50: Error when launching xprop
+** Message: 13:43:33.004: utils.vala:138: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:33.004: utils.vala:144: System system path location : /etc/xdg/lxsession/LXDE/conffiles.conf
+** Message: 13:43:33.004: utils.vala:148: Final file used : /etc/xdg/lxsession/LXDE/conffiles.conf
+** Message: 13:43:33.004: options.vala:164: Activate xsettings_manager build-in
+** Message: 13:43:33.004: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:33.005: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:33.114: app.vala:728: polkit separate
+** Message: 13:43:33.115: app.vala:728: polkit separate
+** Message: 13:43:33.163: app.vala:76: Launching lxpolkit 
+** Message: 13:43:33.164: utils.vala:127: User config used : /home/twoscoopsofpig/.config/lxsession/LXDE/autostart
+** Message: 13:43:33.164: utils.vala:148: Final file used : /home/twoscoopsofpig/.config/lxsession/LXDE/autostart
+** Message: 13:43:33.164: autostart.vala:42: Autostart path : /home/twoscoopsofpig/.config/lxsession/LXDE/autostart
+** Message: 13:43:33.240: app.vala:76: Launching lxpanel 
+** Message: 13:43:33.333: app.vala:76: Launching pcmanfm 
+** Message: 13:43:33.425: app.vala:76: Launching xscreensaver 
+** Message: 13:43:33.529: options.vala:107: Create build-in Clipboard
+** Message: 13:43:33.591: main.vala:450: Check keymap_mode (null)
+** Message: 13:43:33.741: app.vala:76: Launching /usr/bin/ssh-agent 
+** Message: 13:43:34.018: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:34.018: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:34.019: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:34.019: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+SSH_AUTH_SOCK=/tmp/ssh-BwDk86sZDORq/agent.835; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=858; export SSH_AGENT_PID;
+echo Agent pid 858;
+** Message: 13:43:34.152: settings.vala:503: Reload the xsettings option
+** Message: 13:43:34.156: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:34.157: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:34.157: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:34.157: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:34.394: settings.vala:503: Reload the xsettings option
+** Message: 13:43:34.394: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:34.394: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:34.394: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:34.395: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:34.894: settings.vala:503: Reload the xsettings option
+** Message: 13:43:34.894: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:34.927: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:34.928: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:34.928: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:35.129: settings.vala:503: Reload the xsettings option
+** Message: 13:43:35.130: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:35.130: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:35.130: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:35.131: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:35.212: settings.vala:503: Reload the xsettings option
+** Message: 13:43:35.213: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:35.213: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:35.213: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:35.213: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:35.345: settings.vala:503: Reload the xsettings option
+** Message: 13:43:35.346: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:35.347: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:35.347: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:35.347: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:35.485: settings.vala:503: Reload the xsettings option
+** Message: 13:43:35.486: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:35.486: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:35.486: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:35.486: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:35.784: settings.vala:503: Reload the xsettings option
+** Message: 13:43:35.790: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:35.790: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:35.790: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:35.790: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:36.124: settings.vala:503: Reload the xsettings option
+** Message: 13:43:36.125: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:36.125: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:36.125: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:36.126: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:36.309: settings.vala:503: Reload the xsettings option
+** Message: 13:43:36.310: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:36.311: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:36.311: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:36.311: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:36.531: settings.vala:503: Reload the xsettings option
+** Message: 13:43:36.532: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:36.532: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:36.532: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:36.532: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:36.686: settings.vala:503: Reload the xsettings option
+** Message: 13:43:36.687: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:36.687: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:36.690: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:36.691: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:36.946: settings.vala:503: Reload the xsettings option
+** Message: 13:43:36.947: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:36.947: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:36.947: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:36.947: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:37.131: settings.vala:503: Reload the xsettings option
+** Message: 13:43:37.131: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:37.131: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:37.132: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:37.132: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:37.380: settings.vala:503: Reload the xsettings option
+** Message: 13:43:37.397: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:37.398: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:37.398: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:37.398: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:37.552: settings.vala:503: Reload the xsettings option
+** Message: 13:43:37.552: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:37.552: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:37.553: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:37.556: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:37.683: settings.vala:503: Reload the xsettings option
+** Message: 13:43:37.683: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:37.683: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:37.683: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:37.683: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:37.803: settings.vala:503: Reload the xsettings option
+** Message: 13:43:37.807: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:37.807: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:37.807: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:37.807: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:37.891: settings.vala:503: Reload the xsettings option
+** Message: 13:43:37.891: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:37.892: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:37.892: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:37.892: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+Openbox-Message: Unable to find a valid menu file "/usr/share/lxde/openbox/menu.xml"
+** Message: 13:43:38.020: settings.vala:503: Reload the xsettings option
+** Message: 13:43:38.020: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:38.020: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:38.020: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:38.020: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:38.162: settings.vala:503: Reload the xsettings option
+** Message: 13:43:38.162: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:38.162: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:38.162: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:38.163: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:38.344: settings.vala:503: Reload the xsettings option
+** Message: 13:43:38.345: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:38.345: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:38.345: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:38.345: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:38.442: settings.vala:503: Reload the xsettings option
+** Message: 13:43:38.443: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:38.443: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:38.443: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:38.443: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:38.511: settings.vala:503: Reload the xsettings option
+** Message: 13:43:38.512: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:38.512: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:38.512: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:38.512: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:38.559: settings.vala:503: Reload the xsettings option
+** Message: 13:43:38.560: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:38.560: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:38.560: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:38.560: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:38.702: settings.vala:503: Reload the xsettings option
+** Message: 13:43:38.702: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:38.703: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:38.703: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:38.703: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:38.867: settings.vala:503: Reload the xsettings option
+** Message: 13:43:38.868: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:38.870: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:38.871: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:38.871: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:39.069: settings.vala:503: Reload the xsettings option
+** Message: 13:43:39.069: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:39.069: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:39.069: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:39.070: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:39.194: settings.vala:503: Reload the xsettings option
+** Message: 13:43:39.194: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:39.195: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:39.195: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:39.195: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:39.289: settings.vala:503: Reload the xsettings option
+** Message: 13:43:39.289: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:39.290: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:39.290: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:39.290: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:39.368: settings.vala:503: Reload the xsettings option
+** Message: 13:43:39.368: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:39.369: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:39.369: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:39.369: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:39.445: settings.vala:503: Reload the xsettings option
+** Message: 13:43:39.446: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:39.446: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:39.446: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:39.446: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:39.541: settings.vala:503: Reload the xsettings option
+** Message: 13:43:39.542: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:39.542: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:39.542: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:39.542: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:39.607: settings.vala:503: Reload the xsettings option
+** Message: 13:43:39.607: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:39.607: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:39.608: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:39.608: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:39.689: settings.vala:503: Reload the xsettings option
+** Message: 13:43:39.690: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:39.690: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:39.690: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:39.690: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:39.903: settings.vala:503: Reload the xsettings option
+** Message: 13:43:39.903: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:39.904: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:39.904: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:39.904: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:40.004: settings.vala:503: Reload the xsettings option
+** Message: 13:43:40.005: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:40.005: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:40.005: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:40.005: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:40.226: settings.vala:503: Reload the xsettings option
+** Message: 13:43:40.226: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:40.226: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:40.226: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:40.227: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:40.387: settings.vala:503: Reload the xsettings option
+** Message: 13:43:40.387: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:40.387: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:40.387: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:40.387: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:40.550: settings.vala:503: Reload the xsettings option
+** Message: 13:43:40.551: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:40.551: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:40.551: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:40.551: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:40.679: settings.vala:503: Reload the xsettings option
+** Message: 13:43:40.680: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:40.680: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:40.680: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:40.680: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:40.822: settings.vala:503: Reload the xsettings option
+** Message: 13:43:40.823: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:40.823: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:40.823: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:40.823: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:40.890: settings.vala:503: Reload the xsettings option
+** Message: 13:43:40.891: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:40.891: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:40.891: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:40.891: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:41.012: settings.vala:503: Reload the xsettings option
+** Message: 13:43:41.012: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:41.012: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:41.013: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:41.013: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:41.128: settings.vala:503: Reload the xsettings option
+** Message: 13:43:41.128: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:41.128: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:41.129: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:41.129: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:41.207: settings.vala:503: Reload the xsettings option
+** Message: 13:43:41.207: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:41.207: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:41.208: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:41.208: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:41.382: settings.vala:503: Reload the xsettings option
+** Message: 13:43:41.382: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:41.383: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:41.383: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:41.383: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:41.977: settings.vala:503: Reload the xsettings option
+** Message: 13:43:41.977: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:41.978: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:41.978: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:41.978: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:42.026: settings.vala:503: Reload the xsettings option
+** Message: 13:43:42.027: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:42.027: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:42.027: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:42.027: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:42.051: x-terminal-emulator has very limited support, consider choosing another terminal
+** Message: 13:43:42.123: settings.vala:503: Reload the xsettings option
+** Message: 13:43:42.124: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:42.124: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:42.124: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:42.124: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+grep: /home/twoscoopsofpig/.config/lxpanel/LXDE/panels/*: No such file or directory
+** Message: 13:43:42.223: x-terminal-emulator has very limited support, consider choosing another terminal
+** Message: 13:43:42.234: settings.vala:503: Reload the xsettings option
+** Message: 13:43:42.235: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:42.235: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:42.235: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:42.235: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:42.315: settings.vala:503: Reload the xsettings option
+** Message: 13:43:42.315: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:42.315: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:42.315: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:42.316: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:42.377: settings.vala:503: Reload the xsettings option
+** Message: 13:43:42.378: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:42.378: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:42.378: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:42.378: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:42.523: settings.vala:503: Reload the xsettings option
+** Message: 13:43:42.523: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:42.523: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:42.524: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:42.524: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:42.695: settings.vala:503: Reload the xsettings option
+** Message: 13:43:42.695: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:42.695: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:42.695: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:42.696: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:42.747: settings.vala:503: Reload the xsettings option
+** Message: 13:43:42.748: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:42.748: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:42.748: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:42.748: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:42.806: settings.vala:503: Reload the xsettings option
+** Message: 13:43:42.807: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:42.807: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:42.807: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:42.807: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:42.918: settings.vala:503: Reload the xsettings option
+** Message: 13:43:42.918: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:42.919: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:42.919: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:42.919: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:43.043: settings.vala:503: Reload the xsettings option
+** Message: 13:43:43.044: settings.vala:509: Desktop file change, reloading XSettings daemon
+** Message: 13:43:43.044: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:43.044: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:43.044: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:43.215: settings.vala:503: Reload the xsettings option
+** Message: 13:43:43.216: settings.vala:515: Desktop file created in home directory, switch configuration to it
+** Message: 13:43:43.217: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:43.218: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:43.218: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:43.788: settings.vala:503: Reload the xsettings option
+** Message: 13:43:43.796: settings.vala:462: Monitoring: /home/twoscoopsofpig/.config/lxsession/LXDE/desktop.conf
+** Message: 13:43:43.797: settings.vala:466: Desktop file is already in config home, do nothing
+** Message: 13:43:43.802: settings.vala:515: Desktop file created in home directory, switch configuration to it
+** Message: 13:43:43.802: options.vala:186: Reload xsettings_manager build-in
+** Message: 13:43:43.802: utils.vala:39: Config system location : /etc/xdg/lxsession/LXDE
+** Message: 13:43:43.802: utils.vala:45: System system path location : /etc/xdg/lxsession/LXDE/desktop.conf
+** Message: 13:43:43.880: settings.vala:503: Reload the xsettings option
+** Message: 13:43:43.882: settings.vala:462: Monitoring: /home/twoscoopsofpig/.config/lxsession/LXDE/desktop.conf
+** Message: 13:43:43.882: settings.vala:466: Desktop file is already in config home, do nothing
+
+** (light-locker:863): WARNING **: 13:43:43.952: screensaver already running in this session
+** Message: 13:43:44.642: app.vala:130: /usr/bin/ssh-agent exit with this type of exit: 0
+dbus-daemon[891]: Activating service name='org.a11y.atspi.Registry' requested by ':1.0' (uid=1000 pid=824 comm="lxpanel --profile LXDE ")
+dbus-daemon[891]: Successfully activated service 'org.a11y.atspi.Registry'
+SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+
+(lxpanel:824): Gtk-WARNING **: 13:43:45.623: gtk_widget_size_allocate(): attempt to allocate widget with width -1 and height 24
+
+** (lxpanel:824): WARNING **: 13:43:46.019: launchbar: application in desktop entry is not valid

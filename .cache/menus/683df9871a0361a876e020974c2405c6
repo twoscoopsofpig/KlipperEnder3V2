@@ -1,0 +1,497 @@
+1.2
+lxde-applications.menu+hidden
+16
+D/home/twoscoopsofpig/.local/share/desktop-directories
+D/usr/local/share/desktop-directories
+D/usr/share/desktop-directories
+D/usr/share/gdm/desktop-directories
+D/var/lib/menu-xdg/desktop-directories
+D/home/twoscoopsofpig/.local/share/applications
+D/usr/local/share/applications
+D/usr/share/applications
+D/usr/share/applications/screensavers
+D/usr/share/gdm/applications
+D/var/lib/menu-xdg/applications
+D/etc/xdg/menus/applications-merged
+D/home/twoscoopsofpig/.config/menus/applications-merged
+F/home/twoscoopsofpig/.config/menus/lxde-applications.menu
+F/etc/xdg/menus/lxde-applications.menu
+F/etc/xdg/menus/debian-menu.menu
+MATE;
++Applications
+Applications
+Applications
+applications-other
+lxde-menu-applications.directory
+2
+0
++Accessories
+Accessories
+Desktop accessories
+applications-accessories
+lxde-utility.directory
+2
+0
+-org.gnome.Screenshot.desktop
+Screenshot
+Save images of your screen or individual windows
+org.gnome.Screenshot
+
+7
+
+gnome-screenshot --interactive
+2
+-5
+
+
+GTK;GNOME;Utility;X-GNOME-Utilities
+snapshot,capture,print,screenshot
+-vim.desktop
+Vim
+Edit text files
+gvim
+
+7
+Text Editor
+vim %F
+1
+0
+vim
+
+Utility;TextEditor
+Text,editor
+
++Debian
+Debian
+
+debian-logo
+lxde-debian.directory
+2
+4
+
++Education
+Education
+
+applications-science
+lxde-education.directory
+2
+4
+
++Games
+Games
+Games and Amusements
+applications-games
+lxde-game.directory
+2
+4
+
++Graphics
+Graphics
+Graphics applications
+applications-graphics
+lxde-graphics.directory
+2
+4
+
++Internet
+Internet
+Programs for Internet access such as web and e-mail
+applications-internet
+lxde-network.directory
+2
+0
+-lxde-x-www-browser.desktop
+Web Browser
+
+web-browser
+
+7
+X Web Browser
+/usr/bin/x-www-browser %u
+4
+0
+
+
+GTK;WebBrowser;Network
+
+
++Office
+Office
+Office Applications
+applications-office
+lxde-office.directory
+2
+4
+
++Other
+Other
+Applications that do not fit in other categories
+applications-other
+lxde-other.directory
+2
+0
+-gcr-prompter.desktop
+Access Prompt
+Unlock access to passwords and other secrets
+security-medium
+
+7
+
+/usr/libexec/gcr-prompter
+4
+0
+
+
+
+
+-lxde-logout.desktop
+Logout
+Logout, shutdown or reboot
+gnome-logout
+
+7
+
+lxde-logout
+4
+0
+lxsession-logout
+
+
+
+-notification-daemon.desktop
+Notification Daemon
+Display notifications
+
+
+7
+
+/usr/lib/notification-daemon/notification-daemon
+4
+0
+
+
+
+
+-openbox.desktop
+Openbox
+
+openbox
+
+7
+
+openbox
+4
+0
+
+
+
+wm,windowmanager,window,manager,gnome
+-lxde-screenlock.desktop
+ScreenLock
+Lock your screen
+system-lock-screen
+
+7
+
+lxlock
+4
+0
+lxlock
+
+
+
+-gcr-viewer.desktop
+View file
+
+
+
+7
+
+/usr/bin/gcr-viewer
+4
+0
+
+
+
+
+-realvnc-vncserverui-virtual.desktop
+VNC Server
+
+/usr/share/icons/hicolor/48x48/apps/vncserver48x48.png
+
+7
+VNC Server
+vncserver-x11 -virtual -showexistingstatus
+4
+0
+
+
+
+
+-realvnc-vncserverui-service.desktop
+VNC Server
+
+/usr/share/icons/hicolor/48x48/apps/vncserver48x48.png
+
+7
+VNC Server
+
+4
+0
+
+
+
+
+-realvnc-vncserverui-user.desktop
+VNC Server
+
+/usr/share/icons/hicolor/48x48/apps/vncserver48x48.png
+
+7
+VNC Server
+vncserver-x11 -showstatus
+4
+0
+
+
+
+
+-realvnc-vnclicensewiz.desktop
+VNC Server - Licensing
+
+/usr/share/icons/hicolor/48x48/apps/vncserver48x48.png
+
+7
+VNC Server
+
+4
+0
+
+
+
+
+-realvnc-vncviewer-scheme.desktop
+VNC Viewer URL Handler
+
+
+
+7
+
+vncviewer -uri %u
+4
+0
+
+
+
+
+
++Development
+Programming
+Tools for software development
+applications-development
+lxde-development.directory
+2
+0
+-python3.9.desktop
+Python (v3.9)
+Python Interpreter (v3.9)
+/usr/share/pixmaps/python3.9.xpm
+
+7
+
+/usr/bin/python3.9
+7
+0
+
+
+Development
+
+
++Multimedia
+Sound & Video
+Multimedia menu
+applications-multimedia
+lxde-audio-video.directory
+2
+0
+-pavucontrol.desktop
+PulseAudio Volume Control
+Adjust the volume level
+multimedia-volume-control
+
+7
+Volume Control
+pavucontrol
+2
+0
+
+
+AudioVideo;Audio;Mixer;GTK
+
+
++System
+System Tools
+System configuration and monitoring
+applications-system
+lxde-system-tools.directory
+2
+0
+-pcmanfm.desktop
+File Manager PCManFM
+Browse the file system and manage the files
+system-file-manager
+
+7
+File Manager
+pcmanfm %U
+2
+0
+
+
+System;FileTools;FileManager;Utility;Core;GTK
+
+-htop.desktop
+Htop
+Show System Processes
+htop
+
+7
+Process Viewer
+htop
+1
+0
+
+
+System;Monitor;ConsoleOnly
+system,process,task
+-lxterminal.desktop
+LXTerminal
+Use the command line
+lxterminal
+
+7
+Terminal
+lxterminal
+0
+0
+lxterminal
+
+GTK;System;TerminalEmulator
+console,command line,execute
+-lxtask.desktop
+Task Manager
+Manage running processes
+utilities-system-monitor
+
+7
+Process manager
+lxtask
+2
+0
+
+
+GTK;System;Monitor
+task,kill,suspend,processor,memory,monitoring,performance
+-lxde-x-terminal-emulator.desktop
+Terminal emulator
+Terminal Emulator
+terminal
+
+7
+Terminal Emulator
+/usr/bin/x-terminal-emulator
+6
+0
+
+
+System;TerminalEmulator;Utility
+
+
++Universal Access
+Universal Access
+Universal Access Settings
+preferences-desktop-accessibility
+lxde-utility-accessibility.directory
+2
+4
+
+-
++DesktopSettings
+Preferences
+Personal preferences
+preferences-desktop
+lxde-settings.directory
+2
+0
+-lxsession-default-apps.desktop
+Default applications for LXSession
+Change the default applications on LXDE
+preferences-desktop
+
+7
+
+lxsession-default-apps
+0
+1
+
+
+GTK;Settings;DesktopSettings;X-LXDE-Settings
+
+-pcmanfm-desktop-pref.desktop
+Desktop Preferences
+Change desktop wallpapers and behaviour of desktop manager
+user-desktop
+
+7
+
+pcmanfm --desktop-pref
+2
+-47
+
+
+Settings;GTK;DesktopSettings;X-LXDE-Settings
+
+-lxrandr.desktop
+Monitor Settings
+Change screen resolution and configure external monitors
+video-display
+
+7
+
+lxrandr
+0
+-47
+
+
+GTK;Settings;HardwareSettings;X-LXDE-Settings
+screen,display,tv,extend,projector,xrandr,refresh rate,position,enable,disable
+-obconf.desktop
+Openbox Configuration Manager
+Tweak settings for Openbox
+obconf
+
+7
+Configuration Manager
+obconf %f
+2
+0
+
+
+Settings;DesktopSettings;GTK
+openbox,settings,configurations,themes
+-xscreensaver-properties.desktop
+Screensaver
+Change screensaver properties
+xscreensaver
+
+7
+
+xscreensaver-demo
+0
+0
+
+
+Settings;DesktopSettings;Security;X-XFCE
+
+
+

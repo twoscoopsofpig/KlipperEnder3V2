@@ -193,3 +193,169 @@ bash klipperbackup.sh
 git push -u commit master
 git push -u origin master
 bash klipperbackup.sh
+nano .gitconfig
+secret-tool
+sudo apt i[Bnstall secret-tool
+
+nano .gitconfig
+bash klipperbackup.sh
+kiauh
+kiauh.sh
+./kiauh/kiauh.sh
+ls
+bash ~/klipperbackup.sh
+bash /home/twoscoopsofpig/klipperbackup.sh
+nano .gitconfig
+nano klipperbackup.sh
+git config credential.helper git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
+git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
+bash klipperbackup.sh
+sudo apt-get install gnome-keyring
+ls
+cd ..
+ls
+nano .git-credentials
+nano ~/.gitconfig
+git push -u origin master
+cd~
+cd ~
+git push -u origin master
+nano .gitconfig
+git push -u origin mastercd /home
+ls
+cd /home
+ls
+ls -h
+ls -ah
+nano .gitconfig
+cd ~
+nano .gitconfig
+git config credential.helper /home/.git-credentials
+git push -u origin mastercd /home
+git push -u origin master
+git config credential.helper store
+git push -u origin master
+nano .gitconfig
+sudo apt-get install dbus-x11
+eval "$(dbus-launch --sh-syntax)"
+mkdir -p ~/.cache
+mkdir -p ~/.local/share/keyrings # where the automatic keyring is created
+# 1. Create the keyring manually with a dummy password in stdin
+eval "$(printf '\n' | gnome-keyring-daemon --unlock)"
+# 2. Start the daemon, using the password to unlock the just-created keyring:
+eval "$(printf '\n' | /usr/bin/gnome-keyring-daemon --start)"
+secret-tool lookup
+sudo apt-get install secret-tool
+yum
+sudo apt-get install libsecret-tools
+secret-tool
+secret-tool lookup
+secret-tool search --all
+
+bash klipperbackup.sh
+nanno .gitconfig
+nano .gitconfig
+git config credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
+bash klipperbackup.sh
+secret-tool lookup twoscoopsofpig
+secret-tool lookup username twoscoopsofpig
+secret-tool search --all  username twoscoopsofpig
+secret-tool search --all --unlock username twoscoopsofpig
+nano .gitconfig
+git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
+bash klipperbackup.sh
+git config --global credential.helper    /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
+bash klipperbackup.sh
+ls -ah
+rm .git-credentials
+nano .gitconfig
+bash klipperbackup.sh
+ls -ah
+nano .git
+bash klipperbackup.sh
+secret-tool lookup git
+sudo apt-get install lsecrets
+sudo apt-get install lssecrets
+git clone https://gitlab.com/GrantMoyer/lssecret
+ls
+cd lssecret
+make
+DESTDIR=/usr make install
+sudo DESTDIR=/usr make install
+lssecret
+secret-tool lookup user twoscoopsofpig
+bash klipperbaskup.sh
+cd ~
+bash klipperbaskup.sh
+bash klipperbackup.sh
+git rm --cached lssecret
+bash klipperbackup.sh
+nano .gitignore
+bash klipperbackup.sh
+export $(dbus-launch)
+pid_gnome=$(pgrep gnome-session)
+$pid_gnome
+pgrep gnome-session
+lsproc
+ls /proc
+pgrep
+eval `dbus-launch --auto-syntax`
+dbus-launch
+nano klipperbackup.sh
+bash klipperbackup.sh
+curl -L https://aka.ms/gcm/linux-install-source.sh | sh
+git-credential-manager configure
+sudo apt-get install git-credential-manager
+curl https://github.com/git-ecosystem/git-credential-manager/releases/download/v2.4.1/gcm-linux_amd64.2.4.1.deb
+ls
+d[kg
+dpkg
+curl https://github.com/git-ecosystem/git-credential-manager/releases/download/v2.4.1/gcm-linux_amd64.2.4.1.deb -o gcm.deb
+ls
+dpkg -i gcm.deb
+sudo dpkg -i gcm.deb
+curl https://github.com/git-ecosystem/git-credential-manager/releases/download/v2.4.1/gcm-linux_amd64.2.4.1.tar.gz -o gcm.tar.gz
+tar -xvf gcm.tar.gz -C /usr/local/bin
+git-credential-manager configure
+man curl
+sudo dpkg -i ~/gcm.deb
+curl https://github.com/git-ecosystem/git-credential-manager/releases/download/v2.4.1/gcm-linux_amd64.2.4.1.tar.gz -o[B ~/gcm.tar.gz
+ls
+tar -xvf ~/gcm.tar.gz -C /usr/local/bin
+man tar
+tar -xvf ~/gcm.tar.gz
+man gzip
+gzip -d gcm.tar.gz
+man wget
+wget https://github.com/git-ecosystem/git-credential-manager/releases/download/v2.4.1/gcm-linux_amd64.2.4.1.deb
+ls
+rm gcm.deb, gcm.tar.gz
+rm gcm.deb gcm.tar.gz
+ls
+dpkg -i gcm-linux_amd64.2.4.1.deb
+sudo dpkg -i gcm-linux_amd64.2.4.1.deb
+rm gcm-linux_amd64.2.4.1.deb
+cls
+raspi-config
+sudo raspi-config
+bash klipperbackup.sh
+nano klipperbackup.sh
+bash klipperbackup.sh
+sudo raspi-config
+sudo systemctl restart vncserver-x11-serviced
+sudo systemctl enable vncserver-x11-serviced
+sudo systemctl start vncserver-x11-serviced
+sudo raspi-config
+sudo apt-get install lightdm
+reboot
+sudo apt-get install lxsession
+sudo raspi-config
+startx
+startlxde
+startxfce4
+startlightdm
+lightdm
+sudo lightdm
+sudo raspi-config
+startx
+startlxde
