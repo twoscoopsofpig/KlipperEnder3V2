@@ -1745,3 +1745,26 @@ Stats 61.0: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000010 mcu_task_stdde
 Stats 62.0: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000010 mcu_task_stddev=0.000007 bytes_write=1340 bytes_read=8282 bytes_retransmit=9 bytes_invalid=0 send_seq=160 receive_seq=160 retransmit_seq=2 srtt=0.004 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72000279  heater_bed: target=0 temp=23.7 pwm=0.000 sysload=0.93 cputime=3.638 memavail=689536 print_time=0.000 buffer_time=0.000 print_stall=0 extruder: target=0 temp=24.4 pwm=0.000
 Stats 63.0: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000010 mcu_task_stddev=0.000007 bytes_write=1346 bytes_read=8416 bytes_retransmit=9 bytes_invalid=0 send_seq=161 receive_seq=161 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72000279  heater_bed: target=0 temp=23.7 pwm=0.000 sysload=0.93 cputime=3.655 memavail=689536 print_time=0.000 buffer_time=0.000 print_stall=0 extruder: target=0 temp=24.3 pwm=0.000
 Stats 64.0: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000010 mcu_task_stddev=0.000007 bytes_write=1352 bytes_read=8515 bytes_retransmit=9 bytes_invalid=0 send_seq=162 receive_seq=162 retransmit_seq=2 srtt=0.003 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72000281  heater_bed: target=0 temp=23.7 pwm=0.000 sysload=0.93 cputime=3.670 memavail=689544 print_time=0.000 buffer_time=0.000 print_stall=0 extruder: target=0 temp=24.4 pwm=0.000
+Timeout with MCU 'mcu' (eventtime=4271.403297)
+Transition to shutdown state: Lost communication with MCU 'mcu'
+Dumping gcode input 0 blocks
+Dumping 17 requests for client 547973949232
+Received 33.568153: b'{"id": 547366357456, "method": "info", "params": {"client_info": {"program": "Moonraker", "version": "v0.8.0-311-g65a8271"}}}'
+Received 33.589791: b'{"id": 547366357648, "method": "list_endpoints", "params": {}}'
+Received 33.617734: b'{"id": 547366352784, "method": "objects/subscribe", "params": {"objects": {"webhooks": null}, "response_template": {"method": "process_status_update"}}}'
+Received 33.622781: b'{"id": 547366353552, "method": "gcode/subscribe_output", "params": {"response_template": {"method": "process_gcode_response"}}}'
+Received 33.627201: b'{"id": 547366353552, "method": "list_endpoints", "params": {}}'
+Received 33.633462: b'{"id": 547366352400, "method": "objects/subscribe", "params": {"objects": {"webhooks": null, "print_stats": null}, "response_template": {"method": "process_status_update"}}}'
+Received 33.873612: b'{"id": 547383873008, "method": "objects/list", "params": {}}'
+Received 33.878932: b'{"id": 547366358560, "method": "objects/query", "params": {"objects": {"configfile": null}}}'
+Received 34.130541: b'{"id": 547366357936, "method": "register_remote_method", "params": {"response_template": {"method": "shutdown_machine"}, "remote_method": "shutdown_machine"}}'
+Received 34.134722: b'{"id": 547366357936, "method": "register_remote_method", "params": {"response_template": {"method": "reboot_machine"}, "remote_method": "reboot_machine"}}'
+Received 34.138515: b'{"id": 547366357936, "method": "register_remote_method", "params": {"response_template": {"method": "pause_job_queue"}, "remote_method": "pause_job_queue"}}'
+Received 34.146430: b'{"id": 547366357936, "method": "register_remote_method", "params": {"response_template": {"method": "start_job_queue"}, "remote_method": "start_job_queue"}}'
+Received 34.150181: b'{"id": 547366357936, "method": "register_remote_method", "params": {"response_template": {"method": "set_device_power"}, "remote_method": "set_device_power"}}'
+Received 34.157411: b'{"id": 547366351968, "method": "objects/query", "params": {"objects": {"heaters": null}}}'
+Received 34.158093: b'{"id": 547366352736, "method": "objects/query", "params": {"objects": {"heaters": null}}}'
+Received 34.374799: b'{"id": 547366351440, "method": "objects/subscribe", "params": {"objects": {"webhooks": null, "print_stats": null, "heater_bed": null, "extruder": null}, "response_template": {"method": "process_status_update"}}}'
+Received 34.628108: b'{"id": 547383873008, "method": "objects/subscribe", "params": {"objects": {"webhooks": null, "print_stats": null, "heater_bed": null, "extruder": null}, "response_template": {"method": "process_status_update"}}}'
+gcode state: absolute_coord=True absolute_extrude=True base_position=[0.0, 0.0, 0.0, 0.0] last_position=[0.0, 0.0, 0.0, 0.0] homing_position=[0.0, 0.0, 0.0, 0.0] speed_factor=0.016666666666666666 extrude_factor=1.0 speed=25.0
+Reactor garbage collection: (33.628161289, 0.0, 0.0)

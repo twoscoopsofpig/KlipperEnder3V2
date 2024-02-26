@@ -1745,3 +1745,38 @@ Properties:
 2024-02-26 09:31:46,702 [job_state.py:_handle_started()] - Job state initialized: standby
 2024-02-26 09:31:46,984 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-02-26 09:31:47,456 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-26 10:42:39,015 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-02-26 10:42:39,024 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1708965729.697108, Usage: 2.33%, Memory: 50764 kB
+System Time: 1708965730.698207, Usage: 2.35%, Memory: 50764 kB
+System Time: 1708965731.699614, Usage: 2.1%, Memory: 50764 kB
+System Time: 1708965732.700243, Usage: 6.18%, Memory: 50764 kB
+System Time: 1708965733.702184, Usage: 1.94%, Memory: 50764 kB
+System Time: 1708965734.703981, Usage: 2.38%, Memory: 50764 kB
+System Time: 1708965735.704660, Usage: 2.3%, Memory: 50764 kB
+System Time: 1708965736.707685, Usage: 2.17%, Memory: 50764 kB
+System Time: 1708965737.706872, Usage: 2.09%, Memory: 50764 kB
+System Time: 1708965738.709539, Usage: 2.21%, Memory: 50764 kB
+System Time: 1708965739.705001, Usage: 1.97%, Memory: 50764 kB
+System Time: 1708965740.705267, Usage: 1.26%, Memory: 50764 kB
+System Time: 1708965741.705819, Usage: 1.28%, Memory: 50764 kB
+System Time: 1708965742.707219, Usage: 3.34%, Memory: 50764 kB
+System Time: 1708965743.708872, Usage: 1.29%, Memory: 50764 kB
+System Time: 1708965744.714597, Usage: 1.43%, Memory: 50764 kB
+System Time: 1708965745.715845, Usage: 2.14%, Memory: 50764 kB
+System Time: 1708965746.718790, Usage: 2.28%, Memory: 50764 kB
+System Time: 1708965747.720131, Usage: 2.32%, Memory: 50764 kB
+System Time: 1708965748.724104, Usage: 2.28%, Memory: 50764 kB
+System Time: 1708965749.723119, Usage: 2.0%, Memory: 50764 kB
+System Time: 1708965750.724528, Usage: 2.33%, Memory: 50764 kB
+System Time: 1708965751.727486, Usage: 2.21%, Memory: 50764 kB
+System Time: 1708965752.730412, Usage: 6.15%, Memory: 50764 kB
+System Time: 1708965753.725651, Usage: 2.44%, Memory: 50764 kB
+System Time: 1708965754.725383, Usage: 1.35%, Memory: 50764 kB
+System Time: 1708965755.726623, Usage: 0.84%, Memory: 50764 kB
+System Time: 1708965756.728260, Usage: 0.89%, Memory: 50764 kB
+System Time: 1708965757.729304, Usage: 0.84%, Memory: 50764 kB
+System Time: 1708965758.736622, Usage: 0.9%, Memory: 50764 kB
+CPU Temperature: 56.92
+2024-02-26 10:42:39,030 [proc_stats.py:_handle_shutdown()] - Throttled Flags: 
