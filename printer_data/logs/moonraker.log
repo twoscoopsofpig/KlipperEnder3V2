@@ -2574,3 +2574,38 @@ Diverged: False
 2024-02-26 11:20:53,859 [application.py:log_request()] - 101 GET /websocket?token=VCHCE5VMNWPQUD5A4MBOBRCC6VDXD3GM (192.168.86.36) [_TRUSTED_USER_] 4.00ms
 2024-02-26 11:20:53,860 [websockets.py:open()] - Websocket Opened: ID: 548014147904, Proxied: False, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.86.32
 2024-02-26 11:20:53,871 [file_manager.py:get_file_list()] - Updating File List <gcodes>...
+2024-02-26 12:01:41,823 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2024-02-26 12:01:41,832 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1708970472.132964, Usage: 2.57%, Memory: 53492 kB
+System Time: 1708970473.134066, Usage: 3.8%, Memory: 53492 kB
+System Time: 1708970474.134760, Usage: 4.3%, Memory: 53492 kB
+System Time: 1708970475.137451, Usage: 3.81%, Memory: 53492 kB
+System Time: 1708970476.138915, Usage: 3.81%, Memory: 53492 kB
+System Time: 1708970477.140421, Usage: 3.84%, Memory: 53492 kB
+System Time: 1708970478.143585, Usage: 3.71%, Memory: 53492 kB
+System Time: 1708970479.145861, Usage: 4.24%, Memory: 53492 kB
+System Time: 1708970480.144842, Usage: 3.84%, Memory: 53492 kB
+System Time: 1708970481.148617, Usage: 7.12%, Memory: 53492 kB
+System Time: 1708970482.147743, Usage: 4.05%, Memory: 53492 kB
+System Time: 1708970483.150182, Usage: 3.74%, Memory: 53492 kB
+System Time: 1708970484.151701, Usage: 4.19%, Memory: 53492 kB
+System Time: 1708970485.153542, Usage: 3.78%, Memory: 53492 kB
+System Time: 1708970486.156816, Usage: 3.58%, Memory: 53492 kB
+System Time: 1708970487.158504, Usage: 3.93%, Memory: 53492 kB
+System Time: 1708970488.154584, Usage: 3.48%, Memory: 53492 kB
+System Time: 1708970489.155877, Usage: 2.89%, Memory: 53492 kB
+System Time: 1708970490.157225, Usage: 2.71%, Memory: 53492 kB
+System Time: 1708970491.161790, Usage: 5.32%, Memory: 53492 kB
+System Time: 1708970492.159961, Usage: 2.92%, Memory: 53492 kB
+System Time: 1708970493.162152, Usage: 3.44%, Memory: 53492 kB
+System Time: 1708970494.164646, Usage: 3.4%, Memory: 53492 kB
+System Time: 1708970495.164245, Usage: 2.82%, Memory: 53492 kB
+System Time: 1708970496.166411, Usage: 2.64%, Memory: 53492 kB
+System Time: 1708970497.166521, Usage: 2.75%, Memory: 53492 kB
+System Time: 1708970498.168514, Usage: 2.54%, Memory: 53492 kB
+System Time: 1708970499.167918, Usage: 3.25%, Memory: 53492 kB
+System Time: 1708970500.168852, Usage: 2.07%, Memory: 53492 kB
+System Time: 1708970501.171219, Usage: 4.31%, Memory: 53492 kB
+CPU Temperature: 61.762
+2024-02-26 12:01:41,835 [proc_stats.py:_handle_shutdown()] - Throttled Flags: 
