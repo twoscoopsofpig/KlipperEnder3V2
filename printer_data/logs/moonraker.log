@@ -2629,3 +2629,50 @@ Error configuring printer
 2024-02-26 12:17:02,886 [klippy_connection.py:_check_ready()] - Klippy ready
 2024-02-26 12:17:03,376 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
 2024-02-26 12:17:27,921 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: server.files.move, Code: 403, Message: Access to file mainsail.cfg forbidden by reserved path 'update_manager mainsail-config'
+2024-02-26 12:35:56,089 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-26 12:35:57,358 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-26 12:36:00,664 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-26 12:36:00,667 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-26 12:36:00,916 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-26 12:36:01,188 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-26 12:36:01,679 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-26 12:40:44,166 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Malformed command 'RUN_SHELL_COMMAND export $(dbus-launch)'
+2024-02-26 12:40:52,939 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Error on 'RUN_SHELL_COMMAND command="export $(dbus-launch)"': missing CMD
+2024-02-26 12:40:59,881 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: The value 'export $(dbus-launch)' is not valid for CMD
+2024-02-26 12:41:09,131 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Malformed command 'RUN_SHELL_COMMAND cmd=export $(dbus-launch)'
+2024-02-26 12:42:37,267 [websockets.py:on_close()] - Websocket Closed: ID: 548024726336 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 9.08
+2024-02-26 12:42:46,223 [application.py:log_request()] - 101 GET /websocket (192.168.86.36) [_TRUSTED_USER_] 8.27ms
+2024-02-26 12:42:46,224 [websockets.py:open()] - Websocket Opened: ID: 548023610336, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: mainsail.local
+2024-02-26 12:42:46,251 [websockets.py:_handle_identify()] - Websocket 548023610336 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
+2024-02-26 12:43:31,545 [application.py:prepare()] - Upload Request Received from 192.168.86.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryADx5WmzUycA6kNNB
+2024-02-26 12:43:31,584 [application.py:post()] - Processing Uploaded File: shell_command.cfg
+2024-02-26 12:43:31,610 [application.py:log_request()] - 201 POST /server/files/upload (192.168.86.36) [_TRUSTED_USER_] 69.63ms
+2024-02-26 12:43:44,199 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Malformed command 'RUN_SHELL_COMMAND dbus_export'
+2024-02-26 12:44:02,108 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: The value 'dbus_export' is not valid for CMD
+2024-02-26 12:44:16,721 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: The value 'dbus_export' is not valid for CMD
+2024-02-26 12:44:23,225 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: The value 'dbus_export' is not valid for CMD
+2024-02-26 12:44:43,936 [application.py:prepare()] - Upload Request Received from 192.168.86.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary1s6fo90miDxEDVDe
+2024-02-26 12:44:43,973 [application.py:post()] - Processing Uploaded File: shell_command.cfg
+2024-02-26 12:44:43,993 [application.py:log_request()] - 201 POST /server/files/upload (192.168.86.36) [_TRUSTED_USER_] 60.64ms
+2024-02-26 12:44:45,055 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-26 12:44:46,320 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-26 12:44:49,639 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-26 12:44:49,645 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-26 12:44:49,891 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-26 12:44:50,179 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-26 12:44:50,652 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-26 12:44:56,575 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Error running command {dbus_export}
+2024-02-26 12:45:03,871 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: Error running command {dbus_export}
+2024-02-26 12:45:14,987 [application.py:prepare()] - Upload Request Received from 192.168.86.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryacDBmrvU78SHzQam
+2024-02-26 12:45:15,008 [application.py:post()] - Processing Uploaded File: shell_command.cfg
+2024-02-26 12:45:15,020 [application.py:log_request()] - 201 POST /server/files/upload (192.168.86.36) [_TRUSTED_USER_] 36.49ms
+2024-02-26 12:45:16,083 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-26 12:45:17,350 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-26 12:45:20,665 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-26 12:45:20,669 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-26 12:45:20,916 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-26 12:45:21,187 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-26 12:45:21,679 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
