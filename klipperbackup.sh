@@ -8,4 +8,4 @@ commitdate="Committed $(date +%Y-%m-%d" "%H:%M:%S)"
 git commit -m "$commitdate"
 
 # Push the changes to the remote repository
-git push origin main
+git push origin master
