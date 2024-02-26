@@ -11885,3 +11885,19 @@ Stats 11686.0: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000010 mcu_task_st
 Stats 11687.0: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000010 mcu_task_stddev=0.000007 bytes_write=1460 bytes_read=10687 bytes_retransmit=9 bytes_invalid=0 send_seq=180 receive_seq=180 retransmit_seq=2 srtt=0.004 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72000299  heater_bed: target=0 temp=24.2 pwm=0.000 sysload=0.17 cputime=118.300 memavail=642980 print_time=0.000 buffer_time=0.000 print_stall=0 extruder: target=0 temp=24.9 pwm=0.000
 Stats 11688.0: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000010 mcu_task_stddev=0.000007 bytes_write=1466 bytes_read=10790 bytes_retransmit=9 bytes_invalid=0 send_seq=181 receive_seq=181 retransmit_seq=2 srtt=0.004 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72000300  heater_bed: target=0 temp=24.2 pwm=0.000 sysload=0.17 cputime=118.326 memavail=642980 print_time=0.000 buffer_time=0.000 print_stall=0 extruder: target=0 temp=24.9 pwm=0.000
 Stats 11689.0: gcodein=0  mcu: mcu_awake=0.001 mcu_task_avg=0.000010 mcu_task_stddev=0.000007 bytes_write=1472 bytes_read=10916 bytes_retransmit=9 bytes_invalid=0 send_seq=182 receive_seq=182 retransmit_seq=2 srtt=0.004 rttvar=0.000 rto=0.025 ready_bytes=0 upcoming_bytes=0 freq=72000302  heater_bed: target=0 temp=24.2 pwm=0.000 sysload=0.17 cputime=118.351 memavail=642980 print_time=0.000 buffer_time=0.000 print_stall=0 extruder: target=0 temp=24.9 pwm=0.000
+Running Command {backup_klipper}...:
+grep: /proc//environ: No such file or directory
+
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+
+** (process:10671): CRITICAL **: 12:48:45.716: could not connect to Secret Service: The given address is empty
+
+fatal: could not read Username for 'https://github.com': No such device or address
+
+Command {backup_klipper} finished
+
