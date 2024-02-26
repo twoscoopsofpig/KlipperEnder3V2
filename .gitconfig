@@ -1,5 +1,0 @@
-[user]
-	email = twoscoopsofpig@gmail.com
-	name = Bill Conant
-[credential]
-	helper = /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
