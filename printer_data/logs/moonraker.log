@@ -2609,3 +2609,23 @@ System Time: 1708970500.168852, Usage: 2.07%, Memory: 53492 kB
 System Time: 1708970501.171219, Usage: 4.31%, Memory: 53492 kB
 CPU Temperature: 61.762
 2024-02-26 12:01:41,835 [proc_stats.py:_handle_shutdown()] - Throttled Flags: 
+2024-02-26 12:16:51,702 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-26 12:16:52,969 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-26 12:16:55,343 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-26 12:16:55,347 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-26 12:16:55,352 [klippy_connection.py:_check_ready()] - 
+Can not update MCU 'mcu' config as it is shutdown
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
+2024-02-26 12:16:57,740 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2024-02-26 12:16:57,755 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.info, Code: 503, Message: Klippy Host not connected
+2024-02-26 12:16:59,008 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2024-02-26 12:17:02,362 [klippy_connection.py:_request_initial_subscriptions()] - Webhooks Subscribed
+2024-02-26 12:17:02,365 [klippy_connection.py:_request_initial_subscriptions()] - GCode Output Subscribed
+2024-02-26 12:17:02,612 [job_state.py:_handle_started()] - Job state initialized: standby
+2024-02-26 12:17:02,886 [klippy_connection.py:_check_ready()] - Klippy ready
+2024-02-26 12:17:03,376 [data_store.py:_init_sensors()] - Configuring available sensors: ['heater_bed', 'extruder']
+2024-02-26 12:17:27,921 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: server.files.move, Code: 403, Message: Access to file mainsail.cfg forbidden by reserved path 'update_manager mainsail-config'
