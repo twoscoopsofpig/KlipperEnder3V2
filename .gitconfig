@@ -2,4 +2,4 @@
 	email = twoscoopsofpig@gmail.com
 	name = Bill Conant
 [credential]
-	helper = .gitcredentials
+	helper = .git-credentials
