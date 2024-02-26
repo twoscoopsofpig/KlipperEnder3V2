@@ -1,0 +1,201 @@
+-------------------- Log Start | Sun Jun 18 14:57:36 2023 --------------------
+data_path: /home/twoscoopsofpig/printer_data
+is_default_data_path: False
+config_file: /home/twoscoopsofpig/printer_data/config/moonraker.conf
+startup_warnings: []
+verbose: False
+debug: False
+asyncio_debug: False
+is_backup_config: False
+is_python_package: True
+instance_uuid: ac7b8757b42e446593250499de01741a
+unix_socket_path: /home/twoscoopsofpig/printer_data/comms/moonraker.sock
+software_version: v0.8.0-268-ga23187b
+git_branch: master
+git_remote: origin
+git_repo_url: https://github.com/Arksine/moonraker.git
+modified_files: []
+unofficial_components: []
+log_file: /home/twoscoopsofpig/printer_data/logs/moonraker.log
+python_version: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+launch_args: /home/twoscoopsofpig/moonraker-env/bin/python /home/twoscoopsofpig/moonraker/moonraker/__main__.py
+msgspec_enabled: False
+uvloop_enabled: False
+2023-06-18 09:57:36,369 [confighelper.py:read_file()] - Configuration File '/home/twoscoopsofpig/printer_data/config/moonraker.conf' parsed, total size: 2169 B
+2023-06-18 09:57:36,370 [server.py:add_log_rollover_item()] - 
+#################### Moonraker Configuration ####################
+
+[server]
+host = 0.0.0.0
+port = 7125
+max_upload_size = 1024
+klippy_uds_address = ~/printer_data/comms/klippy.sock
+
+[file_manager]
+enable_object_processing = False
+
+[authorization]
+cors_domains = 
+	https://my.mainsail.xyz
+	http://my.mainsail.xyz
+	http://*.local
+	http://*.lan
+trusted_clients = 
+	10.0.0.0/8
+	127.0.0.0/8
+	169.254.0.0/16
+	172.16.0.0/12
+	192.168.0.0/16
+	FE80::/10
+	::1/128
+
+[octoprint_compat]
+
+[history]
+
+[announcements]
+subscriptions = 
+	mainsail
+
+[update_manager]
+refresh_interval = 168
+enable_auto_refresh = True
+
+[update_manager mainsail]
+type = web
+channel = stable
+repo = mainsail-crew/mainsail
+path = ~/mainsail
+
+[update_manager mainsail-config]
+type = git_repo
+primary_branch = master
+path = ~/mainsail-config
+origin = https://github.com/mainsail-crew/mainsail-config.git
+managed_services = klipper
+
+[update_manager crowsnest]
+type = git_repo
+path = ~/crowsnest
+origin = https://github.com/mainsail-crew/crowsnest.git
+managed_services = crowsnest
+install_script = tools/pkglist.sh
+
+[update_manager sonar]
+type = git_repo
+path = ~/sonar
+origin = https://github.com/mainsail-crew/sonar.git
+primary_branch = main
+managed_services = sonar
+install_script = tools/install.sh
+
+#################################################################
+All Configuration Files:
+/home/twoscoopsofpig/printer_data/config/moonraker.conf
+#################################################################
+2023-06-18 09:57:37,155 [server.py:load_component()] - Component (secrets) loaded
+2023-06-18 09:57:37,229 [server.py:load_component()] - Component (template) loaded
+2023-06-18 09:57:37,245 [server.py:load_component()] - Component (klippy_connection) loaded
+2023-06-18 09:57:40,666 [server.py:load_component()] - Component (application) loaded
+2023-06-18 09:57:40,843 [server.py:load_component()] - Component (websockets) loaded
+2023-06-18 09:57:41,278 [server.py:load_component()] - Component (dbus_manager) loaded
+2023-06-18 09:57:41,431 [server.py:add_log_rollover_item()] - 
+Database Versions: pylmdb = 1.4.1, lmdb = (0, 9, 29)
+Unsafe Shutdown Count: 0
+2023-06-18 09:57:41,517 [server.py:load_component()] - Component (database) loaded
+2023-06-18 09:57:42,040 [file_manager.py:__init__()] - Using File System Observer: inotify
+2023-06-18 09:57:42,230 [server.py:load_component()] - Component (file_manager) loaded
+2023-06-18 09:57:42,255 [server.py:load_component()] - Component (klippy_apis) loaded
+2023-06-18 09:57:42,970 [server.py:add_log_rollover_item()] - 
+System Info:
+
+***python***
+  version: (3, 9, 2, 'final', 0)
+  version_string: 3.9.2 (default, Feb 28 2021, 17:03:44)  [GCC 10.2.1 20210110]
+
+***cpu_info***
+  cpu_count: 4
+  bits: 64bit
+  processor: aarch64
+  cpu_desc: 
+  serial_number: 24afd2ce
+  hardware_desc: BCM2835
+  model: Raspberry Pi 3 Model B Rev 1.2
+  total_memory: 880336
+  memory_units: kB
+
+***sd_info***
+  manufacturer_id: 1b
+  manufacturer: Samsung
+  oem_id: 534d
+  product_name: EC1S5
+  product_revision: 3.0
+  serial_number: 40b9676e
+  manufacturer_date: 7/2023
+  capacity: 59.7 GiB
+  total_bytes: 64088965120
+
+***distribution***
+  name: Debian GNU/Linux 11 (bullseye)
+  id: debian
+  version: 11
+  version_parts: {'major': '11', 'minor': '', 'build_number': ''}
+  like: 
+  codename: bullseye
+  release_info: {'name': 'MainsailOS', 'version_id': '1.3.2', 'codename': 'bullseye', 'id': 'mainsailos'}
+
+***virtualization***
+  virt_type: none
+  virt_identifier: none
+
+***network***
+
+***canbus***
+
+***Allowed Services***
+  klipper_mcu
+  webcamd
+  MoonCord
+  KlipperScreen
+  moonraker-telegram-bot
+  moonraker-obico
+  sonar
+  crowsnest
+  octoeverywhere
+  ratos-configurator
+2023-06-18 09:57:42,999 [server.py:load_component()] - Component (shell_command) loaded
+2023-06-18 09:57:43,000 [machine.py:__init__()] - Using System Provider: systemd_dbus
+2023-06-18 09:57:43,014 [server.py:load_component()] - Component (machine) loaded
+2023-06-18 09:57:43,031 [server.py:load_component()] - Component (data_store) loaded
+2023-06-18 09:57:43,062 [proc_stats.py:__init__()] - Detected 'vcgencmd', throttle checking enabled
+2023-06-18 09:57:43,065 [server.py:load_component()] - Component (proc_stats) loaded
+2023-06-18 09:57:43,076 [server.py:load_component()] - Component (job_state) loaded
+2023-06-18 09:57:43,108 [server.py:load_component()] - Component (job_queue) loaded
+2023-06-18 09:57:43,166 [server.py:load_component()] - Component (http_client) loaded
+2023-06-18 09:57:43,243 [server.py:load_component()] - Component (announcements) loaded
+2023-06-18 09:57:43,278 [server.py:load_component()] - Component (webcam) loaded
+2023-06-18 09:57:43,297 [server.py:load_component()] - Component (extensions) loaded
+2023-06-18 09:57:43,495 [authorization.py:__init__()] - Authorization Configuration Loaded
+Trusted Clients:
+10.0.0.0/8
+127.0.0.0/8
+169.254.0.0/16
+172.16.0.0/12
+192.168.0.0/16
+fe80::/10
+::1/128
+CORS Domains:
+https://my\.mainsail\.xyz
+http://my\.mainsail\.xyz
+http://.*\.local
+http://.*\.lan
+2023-06-18 09:57:43,514 [server.py:load_component()] - Component (authorization) loaded
+2023-06-18 09:57:43,569 [server.py:load_component()] - Component (history) loaded
+2023-06-18 09:57:44,086 [base_deploy.py:log_info()] - Git Repo moonraker: Detected virtualenv: /home/twoscoopsofpig/moonraker-env
+2023-06-18 09:57:44,094 [base_deploy.py:log_info()] - Git Repo klipper: Detected virtualenv: /home/twoscoopsofpig/klippy-env
+2023-06-18 09:57:44,121 [server.py:load_component()] - Component (update_manager) loaded
+2023-06-18 09:57:44,149 [server.py:load_component()] - Component (octoprint_compat) loaded
+2023-06-18 09:57:44,166 [server.py:_initialize_component()] - Performing Component Post Init: [dbus_manager]
+2023-06-18 09:57:44,195 [server.py:_initialize_component()] - Performing Component Post Init: [file_manager]
+2023-06-18 09:57:44,197 [server.py:_initialize_component()] - Performing Component Post Init: [machine]
+2023-06-18 09:57:44,199 [machine.py:validation_init()] - Validation version in database out of date
