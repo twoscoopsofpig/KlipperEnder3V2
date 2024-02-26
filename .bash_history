@@ -128,3 +128,68 @@ bash klipperbackup.sh
 nano klipperbackup.sh
 bash klipperbackup.sh
 logout
+bash klipperbackup.sh
+git config credential.helper store
+nano .git-credentials
+bash klipperbackup.sh
+git config credential.helper store
+nano .gitconfig
+bash klipperbackup.sh
+nano klipperbackup.sh
+bash klipperbackup.sh
+nano klipperbackup.sh
+bash klipperbackup.sh
+nano .gitconfig
+bash klipperbackup.sh
+nano .gitconfig
+nano .gitcredentials
+ls
+ls .
+ls . -ah
+nano .git-credentials
+nano .gitconfig
+nano .git-credentials
+bash klipperbackup.sh
+nano .git-credentials
+sudo nano .git-credentials
+nano .git-credentials
+bash klipperbackup.sh
+git config --global credential.helper .git-credentials
+bash klipperbackup.sh
+git config --global credential.helper ~/.git-credentials
+bash klipperbackup.sh
+sudo bash klipperbackup.sh
+sudo rm .git-credentials
+nano .git-credentials
+bash klipperbackup.sh
+git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
+nano .gitconfig
+nano klipperbackup.sh
+git push -u origin master
+cd /usr/share/doc/git/contrib/credential/libsecret
+sudo make
+sudo apt install gnome-keyring
+git push -u origin master
+cd `
+cd ~
+git push -u origin master
+nano klipperbackup.sh
+git branch -m main master
+git fetch origin
+git branch -u origin/master master
+git remote set-head origin -a
+nano klipperbackup.sh
+bash klipperbackup.sh
+git pull master
+git pull KlipperEnder3V2/master
+git pull KlipperEnder3V2
+git pull https://github.com/twoscoopsofpig/KlipperEnder3V2
+git pull.rebase true https://github.com/twoscoopsofpig/KlipperEnder3V2
+git pull rebase https://github.com/twoscoopsofpig/KlipperEnder3V2
+git pull --rebase https://github.com/twoscoopsofpig/KlipperEnder3V2
+bash klipperbackup.sh
+crontab -e
+bash klipperbackup.sh
+git push -u commit master
+git push -u origin master
+bash klipperbackup.sh
