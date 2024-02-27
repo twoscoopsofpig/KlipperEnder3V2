@@ -2128,3 +2128,5 @@ Diverged: False
 2024-02-26 16:41:58,030 [websockets.py:open()] - Websocket Opened: ID: 547897858752, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36, Host Name: 192.168.86.32
 2024-02-26 16:41:58,052 [websockets.py:_handle_identify()] - Websocket 547897858752 Client Identified - Name: mainsail, Version: 2.10.0, Type: web
 2024-02-26 16:42:24,666 [common.py:build_error()] - JSON-RPC Request Error - Requested Method: printer.gcode.script, Code: 400, Message: No trigger on x after full movement
+2024-02-26 17:44:29,792 [websockets.py:on_close()] - Websocket Closed: ID: 547897858752 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.75
+2024-02-26 17:45:58,412 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.86.36
